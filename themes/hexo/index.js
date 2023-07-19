@@ -106,7 +106,7 @@ const LayoutBase = props => {
 }
 
 /**
- * 首页
+ * Home
  * 是一个博客列表，嵌入一个Hero大图
  * @param {*} props
  * @returns
@@ -117,7 +117,7 @@ const LayoutIndex = (props) => {
 }
 
 /**
- * 博客列表
+ * Blog-list
  * @param {*} props
  * @returns
  */
@@ -129,7 +129,7 @@ const LayoutPostList = (props) => {
 }
 
 /**
- * 搜索
+ * Search
  * @param {*} props
  * @returns
  */
@@ -166,7 +166,7 @@ const LayoutSearch = props => {
 }
 
 /**
- * 归档
+ * Archive
  * @param {*} props
  * @returns
  */
@@ -188,7 +188,7 @@ const LayoutArchive = (props) => {
 }
 
 /**
- * 文章详情
+ * Article-Detail
  * @param {*} props
  * @returns
  */
@@ -286,7 +286,7 @@ const Layout404 = props => {
 }
 
 /**
- * 分类列表
+ * Category-Index
  * @param {*} props
  * @returns
  */
@@ -316,7 +316,7 @@ const LayoutCategoryIndex = props => {
 }
 
 /**
- * 标签列表
+ * Tag-Index
  * @param {*} props
  * @returns
  */
