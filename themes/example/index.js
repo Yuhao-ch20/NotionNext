@@ -105,7 +105,7 @@ const LayoutBase = props => {
 }
 
 /**
- * 首页
+ * Home
  * @param {*} props
  * @returns 此主题首页就是列表
  */
@@ -114,7 +114,7 @@ const LayoutIndex = props => {
 }
 
 /**
- * 文章列表
+ * Post-List
  * @param {*} props
  * @returns
  */
@@ -135,7 +135,7 @@ const LayoutPostList = props => {
 }
 
 /**
- * 文章详情页
+ * Post-Detail
  * @param {*} props
  * @returns
  */
@@ -165,7 +165,7 @@ const Layout404 = (props) => {
 }
 
 /**
- * 搜索页
+ * Search
  * @param {*} props
  * @returns
  */
@@ -196,7 +196,7 @@ const LayoutSearch = props => {
 }
 
 /**
- * 归档列表
+ * Archive
  * @param {*} props
  * @returns 按照日期将文章分组排序
  */
@@ -214,7 +214,7 @@ const LayoutArchive = props => {
 }
 
 /**
- * 分类列表
+ * Category-Index
  * @param {*} props
  * @returns
  */
@@ -230,7 +230,7 @@ const LayoutCategoryIndex = props => {
 }
 
 /**
- * 标签列表
+ * Tag-Index
  * @param {*} props
  * @returns
  */
