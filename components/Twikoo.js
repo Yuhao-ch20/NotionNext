@@ -17,7 +17,7 @@ const Twikoo = ({ isDarkMode }) => {
       console.log('twikoo 加载成功', url)
       const twikoo = window.twikoo
       twikoo.init({
-        envId: BLOG.COMMENT_TWIKOO_ENV_ID, // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
+        envId: BLOG.https://twikoo-sandy-ten.vercel.app, // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
         el: '#twikoo', // 容器元素
         lang: BLOG.LANG // 用于手动设定评论区语言，支持的语言列表 https://github.com/imaegoo/twikoo/blob/main/src/client/utils/i18n/index.js
         // region: 'ap-guangzhou', // 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
