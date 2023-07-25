@@ -233,6 +233,7 @@ const BLOG = {
   COMMENT_CUSDIS_SCRIPT_SRC:
       process.env.NEXT_PUBLIC_COMMENT_CUSDIS_SCRIPT_SRC ||
       'https://cusdis.com/js/cusdis.es.js', // change this if you're using self-hosted version
+  COMMENT_CUSDIS_LANG: process.env.NEXT_PUBLIC_COMMENT_CUSDIS_LANG || 'en',
 
   // gitalk评论插件 更多参考 https://gitalk.github.io/
   COMMENT_GITALK_REPO: process.env.NEXT_PUBLIC_COMMENT_GITALK_REPO || '', // 你的Github仓库名，例如 'NotionNext'
